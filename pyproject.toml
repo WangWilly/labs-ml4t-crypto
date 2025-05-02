@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "labs-ml4t-crypto"
+version = "0.1.0"
+description = ""
+authors = ["WangWilly <s89667654@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+freqtrade = "^2025.4"
+plotly = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

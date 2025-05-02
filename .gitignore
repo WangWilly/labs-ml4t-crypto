@@ -2,7 +2,7 @@
 **/data/
 **/hyperopt_results/
 **/logs/
-**/notebooks/
+# **/notebooks/
 
 **/config.json
 **/*.sqlite*

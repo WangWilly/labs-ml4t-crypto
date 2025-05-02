@@ -37,6 +37,20 @@ docker compose run --rm freqtrade new-config --config user_data/config.json
 docker compose up -d
 ```
 
+## Development
+
+### Prerequisites
+
+- `brew install ta-lib`
+- Poetry: `2.1.2` (package poetry `1.8.3`, installed using Python `3.12.4`)
+
+```bash
+# Install dependencies
+poetry install
+# Activate the virtual environment
+poetry shell
+```
+
 ## MISC
 
 ### Readings

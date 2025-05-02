@@ -1,0 +1,8 @@
+**/backtest_results/
+**/data/
+**/hyperopt_results/
+**/logs/
+**/notebooks/
+
+**/config.json
+**/*.sqlite*

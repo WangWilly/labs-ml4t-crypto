@@ -61,6 +61,7 @@ poetry shell
 
 - https://www.algoseek.com/data-drive.html
 - https://finviz.com/calendar.ashx
+- https://www.freqtrade.io/en/stable/data-download/
 
 ### Indicators
 

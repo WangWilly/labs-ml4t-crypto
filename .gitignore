@@ -1,8 +1,10 @@
+**/__pycache__/
+
 **/backtest_results/
 **/data/
 **/hyperopt_results/
 **/logs/
-# **/notebooks/
+**/notebooks/
 
-**/config.json
+**/config*.json
 **/*.sqlite*

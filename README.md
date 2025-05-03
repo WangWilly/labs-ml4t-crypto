@@ -51,6 +51,20 @@ poetry install
 poetry shell
 ```
 
+### Prepare the data
+
+- https://www.freqtrade.io/en/stable/data-download/
+
+```bash
+freqtrade download-data --config user_data/config.json --exchange binance --data-format-ohlcv user_data/data/binance/BTC_USDT_USDT-5m-futures.json --trading-mode futures --pairs "BTC/USDT:USDT" --days 10 --timeframes 5m
+```
+
+### Backtesting
+
+```bash
+freqtrade backtesting --config user_data/config_test.json --datadir user_data/data/binance --data-format-ohlcv json --strategy SampleStrategy --pairs "BTC/USDT:USDT" --timeframe 5m
+```
+
 ## MISC
 
 ### Readings
@@ -61,7 +75,6 @@ poetry shell
 
 - https://www.algoseek.com/data-drive.html
 - https://finviz.com/calendar.ashx
-- https://www.freqtrade.io/en/stable/data-download/
 
 ### Indicators
 
